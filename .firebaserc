@@ -1,0 +1,12 @@
+{
+  "targets": {
+ 
+    "gowtham-weds-priya": {
+      "hosting": {
+        "myapp": [
+          "gowtham-weds-priya"
+        ]
+      }
+    }
+  }
+}
