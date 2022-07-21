@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "AppFont";
+    src: url("assets/font/Open_Sans/OpenSans-SemiBoldItalic.ttf");
+}
+
+body,
+p,
+/* h2, */
+h5,
+h6,
+button,
+.button-md,
+.button-ios,
+.input,
+.text-input,
+ion-label,
+ion-button,
+input {
+    font-family: "AppFont" !important;
+}
+
+@font-face {
+    font-family: "AppFont2";
+    src: url("assets/font/Open_Sans/Virgiluna.ttf");
+}
+
+h1 {
+    font-family: "AppFont2" !important;
+}
+
+@font-face {
+    font-family: "AppFont3";
+    src: url("assets/font/raider-crusader-font/Brogads.ttf");
+
+}
+
+.parallax {
+    font-family: "AppFont3" !important;
+}

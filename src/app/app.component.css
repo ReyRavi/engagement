@@ -1,0 +1,96 @@
+.animate-left {
+    position: relative;
+    animation: animateleft 10s;
+  }
+  @keyframes animateleft {
+    from {
+      right: 0;
+      opacity: 0;
+    }
+    to {
+      right: 0;
+      opacity: 1;
+    }
+  }
+ 
+  .coverpic_background {
+    background-color: #cccccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+  }
+  
+  .thnx {
+    background-color: #cccccc;
+    height: 325px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+  }
+  #overlay {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(15, 5, 5, 0.31)
+  }
+  #overlay_bg {
+    width: 100%;
+    height: 100%;
+  }
+
+ #clockdiv{
+  font-family: monospace;
+  color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    line-height: 3vh;
+}
+
+#clockdiv > div{
+ 
+    color: black;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    color: black;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+.parallax {
+  z-index: 99;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* background: linear-gradient(45deg, #7a6565a3, transparent); */
+  background-color: rgba(255,255,255,0.9);
+  height: 45px;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+.couple{
+  width: 100%;
+  height: 500px;
+  object-fit: scale-down;
+  /* margin-top: -5%;
+  margin-bottom: -10%; */
+}
+
+.two{
+  width: 50%;
+  height: 50%;
+}
